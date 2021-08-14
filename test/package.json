@@ -1,0 +1,21 @@
+{
+  "name": "react-comments-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@daohuytuan/react-comments": "0.0.5",
+    "@testing-library/react": "^12.0.0",
+    "@types/jest": "^26.0.24",
+    "@types/react": "^17.0.15",
+    "jest": "^27.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  }
+}
