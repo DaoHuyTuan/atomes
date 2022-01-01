@@ -14,12 +14,12 @@ import typescript2 from 'rollup-plugin-typescript2'
 const bundleMain = {
   input: 'src/index.ts',
   output: [
-    // {
-    //   dir: 'dist/cjs',
-    //   format: 'cjs',
-    //   preserveModules: true,
-    //   exports: 'named'
-    // },
+    {
+      dir: 'dist/cjs',
+      format: 'cjs',
+      preserveModules: true,
+      exports: 'named'
+    },
     {
       dir: 'dist/esm',
       format: 'esm',
